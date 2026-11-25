@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ivy's Page</title>
+  <style>
+    /* CHANGE: pick a color here, e.g. #ff6b9d or #4a90e2 */
+    body { font-family: Arial, sans-serif; background: #fff8f0; color: #222;
+           max-width: 700px; margin: 40px auto; padding: 0 20px; }
+    h1 { color: #ff6b9d; }
+    .card { display: flex; gap: 20px; margin-bottom: 30px; }
+    .card img { width: 200px; border-radius: 12px; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    button { background: #ff6b9d; color: white; border: none; padding: 10px 20px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+
+  <!-- CHANGE: your title and intro -->
+  <h1>super</h1>
+  <p>idol</p>
+
+  <!-- CHANGE: copy this whole card block for each photo -->
+  <div class="card">
+    <img src="photos/photo1.jpg" alt="My photo">
+    <div>
+      <h2>photolabel</h2>
+      <p>photodescription</p>
+    </div>
+  </div>
+
+  <h2>Leave a message</h2>
+  <!-- CHANGE: replace your-form-id below in Step 5 -->
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label>Name<br><input type="text" name="name" required></label><br><br>
+    <label>Message<br><textarea name="message" required></textarea></label><br><br>
+    <button type="submit">Send</button>
+  </form>
+
+  <!-- CHANGE: replace YOURNAME below in Step 4 -->
+  <script data-goatcounter="https://YOURNAME.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>
